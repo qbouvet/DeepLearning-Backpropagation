@@ -45,6 +45,7 @@ The testing accuracy and training runtime of our framework are comparable to tha
 
 However, we take a closer look at the validation loss & accuracy during the training iterations. Here, we find quite a bit of difference: we see that pytorch achieves "good" validation loss and accuracy in much fewer epochs. This could be due to different interpertation of parameters, which we were unfortunately not able to track down within before completion of the project.
 
-<p align=center display=inline-block> <img src="./plots/pt_val.jpg" width=310> </p> <p align=center display=inline-block> Running with pytorch. </p>  | <p align=center display=inline-block> <img src="./plots/pt_val.jpg" width=310> </p> <p align=center> Running with our framework. </p>
-:-------------------------:|:-------------------------:
+<p align=center display=inline-block> <img src="./plots/pt_val.jpg" width=310> </p> <p align=center display=inline-block> Running with pytorch. </p>  
+<p align=center display=inline-block> <img src="./plots/pt_val.jpg" width=310> </p> <p align=center> Running with our framework. </p>
+
 
